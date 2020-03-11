@@ -1,0 +1,54 @@
+2020-03-11 01:50:22.514  INFO 1252 --- [restartedMain] l.m.community.CommunityApplication       : Starting CommunityApplication on DESKTOP-FRBT4TF with PID 1252 (C:\Users\zhz\IdeaProjects\community\target\classes started by zhz in C:\Users\zhz\IdeaProjects\community)
+2020-03-11 01:50:22.518  INFO 1252 --- [restartedMain] l.m.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-03-11 01:50:22.700  INFO 1252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-11 01:50:22.700  INFO 1252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-11 01:50:22.829  WARN 1252 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-03-11 01:50:23.750  INFO 1252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-03-11 01:50:23.783  INFO 1252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29ms. Found 0 Elasticsearch repository interfaces.
+2020-03-11 01:50:23.788  INFO 1252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-03-11 01:50:23.807  INFO 1252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-03-11 01:50:24.069  INFO 1252 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-11 01:50:24.454  INFO 1252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-11 01:50:24.462  INFO 1252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-11 01:50:24.463  INFO 1252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-03-11 01:50:24.586  INFO 1252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-11 01:50:24.586  INFO 1252 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1885 ms
+2020-03-11 01:50:24.629  INFO 1252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-11 01:50:24.784  INFO 1252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-11 01:50:24.789  INFO 1252 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:D://code/community'
+2020-03-11 01:50:25.557  INFO 1252 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-11 01:50:25.656  INFO 1252 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-11 01:50:25.973  INFO 1252 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : no modules loaded
+2020-03-11 01:50:25.974  INFO 1252 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-03-11 01:50:25.974  INFO 1252 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-03-11 01:50:25.974  INFO 1252 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-03-11 01:50:25.974  INFO 1252 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-03-11 01:50:25.974  INFO 1252 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-03-11 01:50:26.957  INFO 1252 --- [restartedMain] o.s.d.e.c.TransportClientFactoryBean     : Adding transport node : 192.168.31.83:9200
+2020-03-11 01:50:28.715  INFO 1252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-11 01:50:28.756  INFO 1252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-11 01:50:28.759  INFO 1252 --- [restartedMain] l.m.community.CommunityApplication       : Started CommunityApplication in 7.024 seconds (JVM running for 8.538)
+2020-03-11 01:50:44.002  INFO 1252 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-11 01:50:44.002  INFO 1252 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-11 01:50:44.012  INFO 1252 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-03-11 01:50:44.101 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-03-11 01:50:44.120 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-03-11 01:50:44.134 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-03-11 01:50:44.137 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION limit ?,? 
+2020-03-11 01:50:44.139 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.Q.selectBySearch                 : ==> Parameters: 0(Integer), 5(Integer)
+2020-03-11 01:50:44.146 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.Q.selectBySearch                 : <==      Total: 5
+2020-03-11 01:50:44.148 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER where ID = ? 
+2020-03-11 01:50:44.151 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-03-11 01:50:44.151 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-03-11 01:50:44.157 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER where ID = ? 
+2020-03-11 01:50:44.157 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-03-11 01:50:44.158 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-03-11 01:50:44.158 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER where ID = ? 
+2020-03-11 01:50:44.159 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-03-11 01:50:44.160 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-03-11 01:50:44.161 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER where ID = ? 
+2020-03-11 01:50:44.161 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-03-11 01:50:44.163 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-03-11 01:50:44.163 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER where ID = ? 
+2020-03-11 01:50:44.164 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-03-11 01:50:44.165 DEBUG 1252 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
